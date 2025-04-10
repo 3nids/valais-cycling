@@ -9,7 +9,8 @@
                 "Contact": "illiez.bike.club@gmail.com",
                 "marker-color": "#c80000",
                 "marker-size": "medium",
-                "marker-symbol": "circle"
+                "marker-symbol": "circle",
+                "logo": "https://example.com/logos/illiez-bike-club.png"
             },
             "geometry": {
                 "coordinates": [
@@ -27,7 +28,8 @@
                 "marker-color": "#c80000",
                 "marker-size": "medium",
                 "marker-symbol": "circle",
-                "Site web": "http://www.ucmonthey.ch"
+                "Site web": "http://www.ucmonthey.ch",
+                "logo": "https://example.com/logos/union-cycliste-montheysanne.png"
             },
             "geometry": {
                 "coordinates": [
@@ -44,7 +46,8 @@
                 "Cyclophile Sédunois": "",
                 "marker-color": "#e60000",
                 "marker-size": "medium",
-                "marker-symbol": "circle"
+                "marker-symbol": "circle",
+                "logo": "https://example.com/logos/cyclophile-sedunois.png"
             },
             "geometry": {
                 "coordinates": [
@@ -83,7 +86,8 @@
                 "marker-color": "#e60000",
                 "marker-size": "medium",
                 "marker-symbol": "circle",
-                "VC Excelsior Martigny": ""
+                "VC Excelsior Martigny": "",
+                "logo": "https://example.com/logos/vc-excelsior-martigny.png"
             },
             "geometry": {
                 "coordinates": [
@@ -100,7 +104,8 @@
                 "BMX Club Sion": "",
                 "marker-color": "#e60000",
                 "marker-size": "medium",
-                "marker-symbol": "circle"
+                "marker-symbol": "circle",
+                "logo": "https://example.com/logos/bmx-club-sion.png"
             },
             "geometry": {
                 "coordinates": [
@@ -117,7 +122,8 @@
                 "Bike Club Verbier": "",
                 "marker-color": "#e60000",
                 "marker-size": "medium",
-                "marker-symbol": "circle"
+                "marker-symbol": "circle",
+                "logo": "https://example.com/logos/bike-club-verbier.png"
             },
             "geometry": {
                 "coordinates": [
@@ -158,7 +164,8 @@
                 "marker-color": "#c80000",
                 "marker-size": "medium",
                 "marker-symbol": "circle",
-                "Site web": "https://www.strava.com/clubs/205495"
+                "Site web": "https://www.strava.com/clubs/205495",
+                "logo": "https://example.com/logos/gx-team.png"
             },
             "geometry": {
                 "coordinates": [
@@ -176,7 +183,8 @@
                 "Site web": "https://mountainathletes.ch/kontakt/",
                 "marker-color": "#e60000",
                 "marker-size": "medium",
-                "marker-symbol": "circle"
+                "marker-symbol": "circle",
+                "logo": "https://example.com/logos/mountain-athletes.png"
             },
             "geometry": {
                 "coordinates": [
@@ -194,7 +202,8 @@
                 "Siteweb": "https://team-herens.ch/",
                 "marker-color": "#e60000",
                 "marker-size": "medium",
-                "marker-symbol": "circle"
+                "marker-symbol": "circle",
+                "logo": "https://example.com/logos/team-herens.png"
             },
             "geometry": {
                 "coordinates": [
