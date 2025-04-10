@@ -10,7 +10,7 @@
                 "marker-color": "#c80000",
                 "marker-size": "medium",
                 "marker-symbol": "circle",
-                "logo": "https://example.com/logos/illiez-bike-club.png"
+                "id": "illiez-bike-club"
             },
             "geometry": {
                 "coordinates": [
@@ -29,7 +29,7 @@
                 "marker-size": "medium",
                 "marker-symbol": "circle",
                 "Site web": "http://www.ucmonthey.ch",
-                "logo": "https://example.com/logos/union-cycliste-montheysanne.png"
+                "id": "union-cycliste-montheysanne"
             },
             "geometry": {
                 "coordinates": [
@@ -47,7 +47,7 @@
                 "marker-color": "#e60000",
                 "marker-size": "medium",
                 "marker-symbol": "circle",
-                "logo": "https://example.com/logos/cyclophile-sedunois.png"
+                "id": "cyclophile-sedunois"
             },
             "geometry": {
                 "coordinates": [
@@ -60,34 +60,12 @@
         },
         {
             "type": "Feature",
-            "properties": {},
-            "geometry": {
-                "coordinates": [
-                    7.641942983733799,
-                    46.311567699019065
-                ],
-                "type": "Point"
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {},
-            "geometry": {
-                "coordinates": [
-                    7.532032820908938,
-                    46.292817909181196
-                ],
-                "type": "Point"
-            }
-        },
-        {
-            "type": "Feature",
             "properties": {
                 "marker-color": "#e60000",
                 "marker-size": "medium",
                 "marker-symbol": "circle",
                 "VC Excelsior Martigny": "",
-                "logo": "https://example.com/logos/vc-excelsior-martigny.png"
+                "id": "vc-excelsior-martigny"
             },
             "geometry": {
                 "coordinates": [
@@ -105,7 +83,7 @@
                 "marker-color": "#e60000",
                 "marker-size": "medium",
                 "marker-symbol": "circle",
-                "logo": "https://example.com/logos/bmx-club-sion.png"
+                "id": "bmx-club-sion"
             },
             "geometry": {
                 "coordinates": [
@@ -123,7 +101,7 @@
                 "marker-color": "#e60000",
                 "marker-size": "medium",
                 "marker-symbol": "circle",
-                "logo": "https://example.com/logos/bike-club-verbier.png"
+                "id": "bike-club-verbier"
             },
             "geometry": {
                 "coordinates": [
@@ -136,36 +114,13 @@
         },
         {
             "type": "Feature",
-            "properties": {},
-            "geometry": {
-                "coordinates": [
-                    7.748569351493387,
-                    46.02086640394472
-                ],
-                "type": "Point"
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {},
-            "geometry": {
-                "coordinates": [
-                    7.7489918270611895,
-                    46.306416590412795
-                ],
-                "type": "Point"
-            },
-            "id": 12
-        },
-        {
-            "type": "Feature",
             "properties": {
                 "Name": "GX Team",
                 "marker-color": "#c80000",
                 "marker-size": "medium",
                 "marker-symbol": "circle",
                 "Site web": "https://www.strava.com/clubs/205495",
-                "logo": "https://example.com/logos/gx-team.png"
+                "id": "gx-team"
             },
             "geometry": {
                 "coordinates": [
@@ -184,7 +139,7 @@
                 "marker-color": "#e60000",
                 "marker-size": "medium",
                 "marker-symbol": "circle",
-                "logo": "https://example.com/logos/mountain-athletes.png"
+                "id": "mountain-athletes"
             },
             "geometry": {
                 "coordinates": [
@@ -203,7 +158,7 @@
                 "marker-color": "#e60000",
                 "marker-size": "medium",
                 "marker-symbol": "circle",
-                "logo": "https://example.com/logos/team-herens.png"
+                "id": "team-herens"
             },
             "geometry": {
                 "coordinates": [
@@ -217,7 +172,8 @@
         {
             "type": "Feature",
             "properties": {
-                "Name": "VTT Club Crans Montana"
+                "Name": "VTT Club Crans Montana",
+                "id": "vtt-club-crans-montana"
             },
             "geometry": {
                 "coordinates": [
@@ -231,7 +187,8 @@
         {
             "type": "Feature",
             "properties": {
-                "Name": "VTT Kids Crans-Montana"
+                "Name": "VTT Kids Crans-Montana",
+                "id": "vtt-kids-crans-montana"
             },
             "geometry": {
                 "coordinates": [
@@ -245,7 +202,8 @@
         {
             "type": "Feature",
             "properties": {
-                "Name": "Rhône Biker"
+                "Name": "Rhône Biker",
+                "id": "rhone-biker"
             },
             "geometry": {
                 "coordinates": [
@@ -259,7 +217,8 @@
         {
             "type": "Feature",
             "properties": {
-                "Name": "Trail Goat"
+                "Name": "Trail Goat",
+                "id": "trail-goat"
             },
             "geometry": {
                 "coordinates": [
@@ -273,7 +232,8 @@
         {
             "type": "Feature",
             "properties": {
-                "Name": "Ride On: Action Sports Academy"
+                "Name": "Ride On: Action Sports Academy",
+                "id": "ride-on-action-sports-academy"
             },
             "geometry": {
                 "coordinates": [
@@ -287,7 +247,8 @@
         {
             "type": "Feature",
             "properties": {
-                "Name": "Bike Kollektiv"
+                "Name": "Bike Kollektiv",
+                "id": "bike-kollektiv"
             },
             "geometry": {
                 "coordinates": [
@@ -301,7 +262,8 @@
         {
             "type": "Feature",
             "properties": {
-                "Name": "Crossroad Kids Bike Club"
+                "Name": "Crossroad Kids Bike Club",
+                "id": "crossroad-kids-bike-club"
             },
             "geometry": {
                 "coordinates": [
@@ -315,7 +277,8 @@
         {
             "type": "Feature",
             "properties": {
-                "Name": "Mont Noble Bike Club"
+                "Name": "Mont Noble Bike Club",
+                "id": "mont-noble-bike-club"
             },
             "geometry": {
                 "coordinates": [
@@ -329,7 +292,8 @@
         {
             "type": "Feature",
             "properties": {
-                "Name": "Snow & Bike School Bellwald"
+                "Name": "Snow & Bike School Bellwald",
+                "id": "snow-bike-school-bellwald"
             },
             "geometry": {
                 "coordinates": [
@@ -343,7 +307,8 @@
         {
             "type": "Feature",
             "properties": {
-                "Name": "Association Anniviarde Mountain Bike"
+                "Name": "Association Anniviarde Mountain Bike",
+                "id": "association-anniviarde-mountain-bike"
             },
             "geometry": {
                 "coordinates": [
@@ -357,7 +322,8 @@
         {
             "type": "Feature",
             "properties": {
-                "Name": "Anzère Bike Club"
+                "Name": "Anzère Bike Club",
+                "id": "anzere-bike-club"
             },
             "geometry": {
                 "coordinates": [
