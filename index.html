@@ -14,6 +14,49 @@
             width: 100%;
             height: 100vh;
         }
+        .maplibregl-popup-content {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            border-radius: 16px;
+            padding: 0px;
+        }
+        .maplibregl-popup-close-button {
+            font-size: 20px; 
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+        }
+        .maplibregl-popup-content img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            padding: 10px;
+        }
+        .maplibregl-popup-content a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        .maplibregl-popup-content a:hover {
+            text-decoration: underline;
+        }
+        .maplibregl-popup-content h3 {
+            margin: 0;
+            font-size: 18px;
+            color: #333;
+            display: block;
+            width: 100%;
+            background-color: #ff0000;
+            padding: 10px;
+            box-sizing: border-box;
+            border-radius: 16px 16px 0 0;
+        }
+        .maplibregl-popup-content p {
+            margin: 5px 0;
+            color: #555;
+            padding: 0 10px;
+        }
+
     </style>
 </head>
 <body>
@@ -392,17 +435,19 @@
             map.on('click', 'cycling-points', (e) => {
                 const coordinates = e.features[0].geometry.coordinates.slice();
                 const properties = e.features[0].properties;
-                const name = properties.name || 'Unknown';
-                const website = properties['website'] || 'No website available';
-                const contact = properties.contact || 'No contact available';
-                const logo = 'logos/'+properties.id+'.png' || 'Unknown';
+                const name = properties.name || null;
+                const website = properties['website'] || null;
+                const contact = properties.contact || null;;
+                const logo = properties.id || null;
 
                 new maplibregl.Popup()
                     .setLngLat(coordinates)
-                    .setHTML(`<strong>${name}</strong><br>
-                              Site web: <a href="http://${website}" target="_blank">${website}</a><br>
-                              Contact: ${contact}<br>
-                              ${logo ? `<img src="${logo}" alt="${name} logo" style="width:100px;">` : ''}`)
+                    .setHTML(`<h3>${name}</h3>
+                              <p>
+                              ${website ? `<a href="${website}" target="_blank">${website}</a><br>` : `` }
+                              ${contact ? `<a href="mailto:${contact}">${contact}</a><br>` : `` }
+                              ${logo ? `<img src="logos/${logo}.png" alt="${name} logo" style="width:100px;" onerror="this.style.display='none';">` : ``}
+                              </p>`)
                     .addTo(map);
             });
 
